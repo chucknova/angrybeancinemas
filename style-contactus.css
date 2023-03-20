@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif; 
+background-color: rgb(38, 43, 167)*/
+.contactbtns-container {
+    width: 350px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.downloadbtn {
+    background-color: #3E45FF;
+    color: white;
+    margin: 10px;
+    height: 45px;
+    border-radius: 4px;
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.wishingyoutext{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+}

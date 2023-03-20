@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.movie-prod-div-one {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.cinemaseatbtn{
+    font-family: 'Poppins', sans-serif;
+    background-color: #3E45FF;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 0px;
+}
+.modal-body, .modal-header{
+    background-color: black;
+}
+.modal-body{
+    padding-top: 20px;
+}
+.btn-close{
+    background-color: white;
+}
+.movie-prod-poster {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.movie-prod-poster-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.movie-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #3E45FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    margin: auto;
+}
+
+.select-date-time-container {
+    width: fit-content;
+    margin: auto;
+}
+.submit-comment-container{
+    width: fit-content;
+    margin: auto;
+}
+.submit-btn {
+    width: 350px;
+    border-radius: 2px;
+    padding-bottom: 30px;
+}
+.select-date-two, .select-date-one{
+    padding-bottom: 30px;
+    align-items: baseline;
+}
+.selectdatebtn, .selecttimebtn{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255);
+    color: rgb(32, 32, 32);
+}
+.select-date-header{
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .movie-price {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        background-color: #3E45FF;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 230px;
+        margin: auto;
+    }
+    .movie-prod-div-one {
+        display: block;
+        text-align: center;
+        align-items: center;
+        width: fit-content;
+        padding-left: 20px;
+    }
+    .select-date-header{
+        font-family: 'Anton', sans-serif;
+        font-size: 23px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+/* Cinema Seating Layout StyleSheet */
+.screen {
+    width: 70%;
+    height: 40px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid white;
+    border-radius: 1px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 0px 20px rgba(255, 255, 255, 1);
+    transform: skew(-20deg);
+    transform-origin: top center;
+}
+
+
+
+.seat {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: blue;
+}
+
+.seat.selected {
+    background-color: green;
+    color: green;
+}
+
+.seat.unavailable {
+    background-color: red;
+    cursor: default;
+    color: red;
+}
+
+.seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+#indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: red;
+}
+
+.empty {
+    background-color: blue;
+}
+.fs-5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.info-seats{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+/* End of Cinema Seat Stylesheet */

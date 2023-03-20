@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="style-movie-listings.css">
+    <title>AngryBean Cinemas | Movie-Listings</title>
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg angrybeannavbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./Images/AngryBean Cinema Logo.png" alt=""
+                class="angrybeanlogo"></a>
+        <button class="navbar-toggler" onclick="this.blur()" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-iconn"><img src="./images/hamburger.png" alt="" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./movie-listings.html">Movies Showing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./refreshment-page.html">Refreshments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contactus.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="d-flex navbarbtns" role="search">
+                <a href="./cart-page.html"><button type="button" class="cartbtn position-relative">
+                    Cart
+                    <span id="cartno" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        0
+                    </span>
+                </button>
+            </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- End of Navbar -->
+
+    <!-- Check out header -->
+    <div class="check-out-header-div">
+        <h1 class="check-out-header">
+            Check out our movie listings available this week according to scheduled dates and times
+        </h1>
+        <h3 class="check-out-subheader">
+            Movie listings available this week curated by AngryBean Cinemas
+        </h3>
+    </div>
+    <!-- End of check out header -->
+    <!-- Day 1 -->
+    <h1 class="check-out-header date-and-time">
+        March 12, Saturday
+    </h1>
+    <div id="day-one" class="flex-wrap-showing-movies movies-and-showtimes">
+        <div id="day-one" class="movie-showing-card">
+            <img src="./Images/glassonionposter.webp" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Glass Onion: A Knives Out Mystery</h2>
+                <h4 class="year-genre-time">2022 . Mystery/Crime ‧ 2h 19m
+                </h4>
+                <div class="details">
+                   <a href="./glassonion.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">12:00PM</button>
+                    <button class="showtime-btn">5:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/cocainebearposter.webp" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Cocaine Bear</h2>
+                <h4 class="year-genre-time">2023 ‧ Thriller/Action ‧ 1h 35m
+                </h4>
+                <div class="details">
+                    <a href="./cocainebear.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">2:00PM</button>
+                    <button class="showtime-btn">7:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/battleonbukastreetposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Battle on Buka Street</h2>
+                <h4 class="year-genre-time">2022 . Drama / Comedy 2hrs, 21mins
+                </h4>
+                <div class="details">
+                   <a href="battleonbukastreet.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">11:00AM</button>
+                    <button class="showtime-btn">2:00PM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Day 1 -->
+
+    <!-- Day 2 -->
+    <h1 class="check-out-header date-and-time">
+        March 13, Monday
+    </h1>
+    <div id="day-two" class="flex-wrap-showing-movies movies-and-showtimes">
+        <div class="movie-showing-card">
+            <img src="./Images/blackadamposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Black Adam</h2>
+                <h4 class="year-genre-time">2022 ‧ Action/Adventure ‧ 2h 5m
+                </h4>
+                <div class="details">
+                    <a href="blackadam.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">11:00AM</button>
+                    <button class="showtime-btn">2:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/lutherposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Luther: The Fallen Sun</h2>
+                <h4 class="year-genre-time">2023 . Drama,Action . 2h 9m
+                </h4>
+                <div class="details">
+                    <a href="luther.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">2:00PM</button>
+                    <button class="showtime-btn">5:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/entergalacticposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Entergalactic</h2>
+                <h4 class="year-genre-time">2022 . Animation/Comedy 2hrs, 27mins
+                </h4>
+                <div class="details">
+                    <a href="./entergalactic.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">10:00AM</button>
+                    <button class="showtime-btn">3:00PM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Day 2 -->
+
+    <!-- Day 3 -->
+    <h1 class="check-out-header date-and-time">
+        March 14, Tuesday
+    </h1>
+    <div id="day-three" class="flex-wrap-showing-movies movies-and-showtimes">
+        <div class="movie-showing-card">
+            <img src="./Images/quantamaniaposter.webp" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Ant-Man and the Wasp: Quantumania</h2>
+                <h4 class="year-genre-time">2022 . Action/Adventure . 2hrs, 5mins
+                </h4>
+                <div class="details">
+                    <a href="./antman.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">12:00PM</button>
+                    <button class="showtime-btn">4:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/blackpantherposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Black Panther: Wakanda Forever</h2>
+                <h4 class="year-genre-time">2022 ‧ Action/Adventure ‧ 2h 41m
+                </h4>
+                <div class="details">
+                    <a href="blackpanther.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">3:00PM</button>
+                    <button class="showtime-btn">7:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/avatarposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Avatar: The way of water</h2>
+                <h4 class="year-genre-time">2022 . SciFi,Action . 3h 12m
+                </h4>
+                <div class="details">
+                    <a href="./avatardetails.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">1:00PM</button>
+                    <button class="showtime-btn">5:00PM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Day 3 -->
+    <!-- Day 4 -->
+    <h1 class="check-out-header date-and-time">
+        March 15, Wednesday
+    </h1>
+    <div id="day-four" class="flex-wrap-showing-movies movies-and-showtimes">
+        <div class="movie-showing-card">
+            <img src="./Images/entergalacticposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Entergalactic</h2>
+                <h4 class="year-genre-time">2022 . Animation/Comedy 2hrs, 27mins
+                </h4>
+                <div class="details">
+                    <a href="./entergalactic.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">12:00PM</button>
+                    <button class="showtime-btn">5:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/glassonionposter.webp" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Glass Onion: A Knives out Mystery</h2>
+                <h4 class="year-genre-time">2022 . Mystery/Crime ‧ 2h 19m
+                </h4>
+                <div class="details">
+                    <a href="./glassonion.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">2:00PM</button>
+                    <button class="showtime-btn">7:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/avatarposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Avatar: The way of water</h2>
+                <h4 class="year-genre-time">2022 . SciFi,Action . 3h 12m
+                </h4>
+                <div class="details">
+                    <a href="./avatardetails.css"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">11:00AM</button>
+                    <button class="showtime-btn">2:00PM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Day 4 -->
+    <!-- Day 5 -->
+    <h1 class="check-out-header date-and-time">
+        March 16, Thursday
+    </h1>
+    <div id="day-five" class="flex-wrap-showing-movies movies-and-showtimes">
+        <div class="movie-showing-card">
+            <img src="./Images/lutherposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Luther: The Fallen Sun</h2>
+                <h4 class="year-genre-time">2023 . Drama,Action . 2h 9m
+                </h4>
+                <div class="details">
+                    <a href="./luther.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">1:00PM</button>
+                    <button class="showtime-btn">6:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/blackadamposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Black Adam</h2>
+                <h4 class="year-genre-time">2022 ‧ Action/Adventure ‧ 2h 5m
+                </h4>
+                <div class="details">
+                    <a href="blackadam.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">3:00PM</button>
+                    <button class="showtime-btn">7:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/quantamaniaposter.webp" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Ant-Man and the Wasp: Quantumania</h2>
+                <h4 class="year-genre-time">2022 . Action/Adventure . 2hrs, 5mins
+                </h4>
+                <div class="details">
+                    <a href="antman.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">11:00AM</button>
+                    <button class="showtime-btn">2:00PM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Day 5 -->
+    <!-- Day 6 -->
+    <h1 class="check-out-header date-and-time">
+        March 17, Friday
+    </h1>
+    <div id="day-six" class="flex-wrap-showing-movies movies-and-showtimes">
+        <div class="movie-showing-card">
+            <img src="./Images/battleonbukastreetposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Battle on Buka Street</h2>
+                <h4 class="year-genre-time">2022 . Drama / Comedy 2hrs, 21mins
+                </h4>
+                <div class="details">
+                    <a href="battleonbukastreet.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">12:00PM</button>
+                    <button class="showtime-btn">5:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/cocainebearposter.webp" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Cocaine Bear</h2>
+                <h4 class="year-genre-time">2023 ‧ Thriller/Action ‧ 1h 35m
+                </h4>
+                <div class="details">
+                    <a href="cocainebear.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">2:00PM</button>
+                    <button class="showtime-btn">7:00PM</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-showing-card">
+            <img src="./Images/blackpantherposter.jpg" alt="" class="movie-showing-poster">
+            <div class="movies-showing-texts">
+                <h2 class="movie-card-title">
+                    Black Panther: Wakanda Forever</h2>
+                <h4 class="year-genre-time">2022 ‧ Action/Adventure ‧ 2h 41m
+                </h4>
+                <div class="details">
+                    <a href="blackpanther.html"><button class="movie-details-btn">View Details</button></a>
+                </div>
+                <div class="showtimes">
+                    <button class="showtime-btn">11:00AM</button>
+                    <button class="showtime-btn">2:00PM</button>
+                </div>
+            </div>
+        </div>
+        <!-- End of Day 6 -->
+        <!-- Day 7 -->
+        <h1 class="check-out-header date-and-time">
+            March 18, Saturday
+        </h1>
+        <div id="day-seven" class="flex-wrap-showing-movies movies-and-showtimes">
+            <div class="movie-showing-card">
+                <img src="./Images/blackpantherposter.jpg" alt="" class="movie-showing-poster">
+                <div class="movies-showing-texts">
+                    <h2 class="movie-card-title">
+                        Black Panther: Wakanda Forever</h2>
+                    <h4 class="year-genre-time">2022 ‧ Action/Adventure ‧ 2h 41m
+                    </h4>
+                    <div class="details">
+                        <a href="blackpanther.html"><button class="movie-details-btn">View Details</button></a>
+                    </div>
+                    <div class="showtimes">
+                        <button class="showtime-btn">12:00PM</button>
+                        <button class="showtime-btn">5:00PM</button>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-showing-card">
+                <img src="./Images/entergalacticposter.jpg" alt="" class="movie-showing-poster">
+                <div class="movies-showing-texts">
+                    <h2 class="movie-card-title">
+                        Entergalactic</h2>
+                    <h4 class="year-genre-time">2022 . Animation/Comedy 2hrs, 27mins
+                    </h4>
+                    <div class="details">
+                        <a href="entergalactic.html"><button class="movie-details-btn">View Details</button></a>
+                    </div>
+                    <div class="showtimes">
+                        <button class="showtime-btn">2:00PM</button>
+                        <button class="showtime-btn">7:00PM</button>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-showing-card">
+                <img src="./Images/quantamaniaposter.webp" alt="" class="movie-showing-poster">
+                <div class="movies-showing-texts">
+                    <h2 class="movie-card-title">
+                        Ant-Man and the Wasp: Quantumania</h2>
+                    <h4 class="year-genre-time">2022 . Action/Adventure . 2hrs, 5mins
+                    </h4>
+                    <div class="details">
+                        <a href="antman.html"><button class="movie-details-btn">View Details</button></a>
+                    </div>
+                    <div class="showtimes">
+                        <button class="showtime-btn">11:00AM</button>
+                        <button class="showtime-btn">2:00PM</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Day 7 -->
+
+    </div>
+
+    <!-- Booking and Reservation -->
+    <div class="booking-reservation-flex">
+        <div class="booking-margin-auto">
+            <div class="booking-reservation-text">
+                <h2 class="booking-reservation-header">
+                    Private Bookings and Reservations
+                </h2>
+                <p class="booking-reservation-paragraph">
+                    Have a private experience with your friends, family or even colleagues. Rent out one of our spaces
+                    for
+                    your birthdays, events and premieres
+                </p>
+            </div>
+            <div class="contact-us-btn-div">
+                <button class="contact-booking-btn">Contact us</button>
+            </div>
+        </div>
+    </div>
+    <!-- End of Booking and Reservation -->
+
+    <!-- Movies Coming Soon -->
+    <div class="coming-soon">
+        <div class="coming-soon-main-header">
+            <div class="mascot">
+                <img src="./Images/angrybean mascot.png" alt="" class="angrybeanmascot bounce-top">
+            </div>
+            <h2 class="coming-soon-header">
+                Movies Coming Soon to AngryBean Cinemas
+            </h2>
+        </div>
+        <div class="flex-wrap-coming-soon">
+            <div class="comingsoon-id-one">
+                <div class="comingsoon-text">
+                    <h3 class="comingsoon-card-title">Elemental</h3>
+                    <h4 class="comingsoon-card-year">2023</h4>
+                </div>
+            </div>
+            <div class="comingsoon-id-two">
+                <div class="comingsoon-text">
+                    <h3 class="comingsoon-card-title">Guardians of the Galaxy Vol. 3</h3>
+                    <h4 class="comingsoon-card-year">2023</h4>
+                </div>
+            </div>
+            <div class="comingsoon-id-three">
+                <div class="comingsoon-text">
+                    <h3 class="comingsoon-card-title">The Super Mario Bros Movie</h3>
+                    <h4 class="comingsoon-card-year">2023</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Movies coming soon -->
+
+    <!-- AngryBean Cinemas Footer -->
+        <div class="footer">
+        <div class="footer-flex-wrap">
+            <div class="footerlogo">
+                <img src="./Images/AngryBean Cinema Logo.png" alt="" class="angrybeanfooterlogo">
+            </div>
+            <div class="address-telephone">
+                <div class="address"><strong>Address:</strong>No 2, BoteExpress, Onigbegiri Junction, Ibadan, Oyo State
+                </div>
+                <div class="telephone"><strong>Telephone:</strong>07014016009, 08029132120</div>
+            </div>
+            <div class="whatsapp-button">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=+2347014016009"><button class="whatsappbtn">Whatsapp Us</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- End of AngryBean Cinemas Footer -->
+</body>
+<script src="script-home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./script-movie-listings.js"></script>
+</html>

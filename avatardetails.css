@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif; */
+body {
+    color: white;
+}
+
+.playbutton {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.playbtndiv {
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.playbuttonicon {
+    height: 70px;
+}
+
+.showtime-btn {
+    font-size: 15px;
+    width: 120px;
+    height: 35px;
+}
+
+.movie-prod-poster-img {
+    height: 270px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.movie-prod-poster {
+    width: fit-content;
+    position: relative;
+}
+
+.movie-prod-div-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.movie-prod-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+
+.actors,
+.director,
+.genre,
+.release,
+.language {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-bottom: 6px;
+    font-weight: 400;
+}
+
+.synopsis-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+}
+
+.all-showtimes-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+}
+
+.synopsis-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 800px;
+}
+
+.movie-prod-div-two {
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.showtime-btn-uppertext {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.all-showtimes {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.showtime-btnsflexwrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.book-ticket-div {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.book-ticket-btn {
+    width: 500px;
+    height: 40px;
+    color: rgb(26, 26, 26);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: white;
+}
+
+.post-comment-container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.post-comment-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+}
+
+.name-label,
+.comment-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.name-input,
+.comment-input {
+    border: 1px solid white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 1px;
+    color: white;
+}
+
+.submit-comment-container {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .movie-prod-poster-img {
+        height: 270px;
+        width: 200px;
+        object-fit: cover;
+    }
+
+    .movie-prod-div-one {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        width: fit-content;
+        padding-left: 90px;
+        margin-top: 50px;
+    }
+
+    .movie-prod-div-two {
+        max-width: 370px;
+        margin: auto;
+        margin-top: 50px;
+        padding-left: 20px;
+    }
+
+    .movie-prod-title {
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+    }
+
+    .actors,
+    .director,
+    .genre,
+    .release,
+    .language {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        padding-bottom: 6px;
+        font-weight: 400;
+    }
+
+    .synopsis-title {
+        font-family: 'Anton', sans-serif;
+        font-size: 25px;
+    }
+
+    .all-showtimes-header {
+        font-family: 'Anton', sans-serif;
+        font-size: 25px;
+    }
+
+    .synopsis-text {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        max-width: 800px;
+    }
+
+    .angrybeannavbar {
+        background-color: #000000;
+        border-bottom: 0px;
+        color: white;
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+    }
+
+    .all-showtimes {
+        max-width: 800px;
+        padding-left: 40px;
+        margin-top: 40px;
+    }
+    .book-ticket-div {
+        max-width: 350px;
+        margin: auto;
+        margin-top: 35px;
+    }
+    
+    .book-ticket-btn {
+        width: 350px;
+        height: 40px;
+        color: rgb(26, 26, 26);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        background-color: white;
+    }
+
+}

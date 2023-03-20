@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.question-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.questions-header-block {
+    text-align: center;
+}
+
+.question-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.question-subheader {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.questions-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.yes-btn,
+.no-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+}
+
+.yes-btn {
+    background-color: #3E45FF;
+    color: white;
+}
+
+.no-btn {
+    background-color: #afb2ff;
+    color: rgb(29, 29, 29);
+}
+
+.yes-btn-container,
+.no-btn-container {
+    width: fit-content;
+    margin: auto;
+}

@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif; 
+*/
+.refreshment-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.refreshment-subheader {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.refreshment-bar-flex-item {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* background-color: brown; */
+    width: 280px;
+    margin: auto;
+}
+
+#refreshment-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 840px;
+    margin: auto;
+    /* background-color: rgb(235, 36, 129); */
+}
+
+.refreshment-image {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.refreshment-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.refreshment-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.refreshment-price {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.refreshment-button {
+    width: 200px;
+    background-color: #3E45FF;
+    color: white;
+    height: 35px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+    border-radius: 3px;
+}
+
+.cart-button-div {
+    width: fit-content;
+    margin: auto;
+}
+
+.gotocart {
+    background-color: white;
+    color: #1f1f1f;
+    font-weight: 500;
+    margin: auto;
+    width: 300px;
+}
+
+.cart-list-flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+
+.cart-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(39, 39, 56);
+    padding: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.refreshmenttitle {
+    font-size: 20px;
+    max-width: 350px;
+    /* background-color: chocolate; */
+}
+
+.refreshmentsubtitle {
+    font-size: 15px;
+    max-width: 200px;
+    font-weight: 400;
+    /* background-color: chocolate; */
+}
+
+.refreshmentprice {
+    font-size: 17px;
+    max-width: 350px;
+    font-weight: 400;
+    /* background-color: chocolate; */
+}
+
+.removebtncontainer {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+
+.qtybtns {
+    width: fit-content;
+    position: absolute;
+    right: 100px;
+}
+
+.increasebtn {
+    color: white;
+    background-color: #3E45FF;
+    border-radius: 3px;
+}
+
+.decreasebtn {
+    color: white;
+    background-color: #B8BBFF;
+    border-radius: 3px;
+}
+
+.removebtn {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #ff2b2bde;
+    font-size: 12px;
+    width: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+
+.food-image {
+    height: 75px;
+    width: 75px;
+    margin-right: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.grandtotaltext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    right: 30px;
+}
+
+.checkout-container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.checkoutbtn {
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: white;
+}
+
+.checkout-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.spinner-border {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 50%;
+    left: 46%;
+    /* transform: translate(0, -50%); */
+}
+
+.waitgenerate {
+    color: black;
+    text-align: center;
+    margin-top: 370px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .cart-list-flex {
+        display: block;
+        padding: 15px;
+    }
+
+    .cart-container {
+        font-family: 'Poppins', sans-serif;
+        max-width: 375px;
+        margin: auto;
+        background-color: rgb(39, 39, 56);
+        padding: 50px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .refreshmenttitle {
+        font-size: 17px;
+        max-width: 350px;
+        padding-top: 15px;
+        /* background-color: chocolate; */
+    }
+
+    .refreshmentsubtitle {
+        font-size: 14px;
+        max-width: 200px;
+        font-weight: 300;
+        /* background-color: chocolate; */
+    }
+
+    .refreshmentprice {
+        font-size: 15px;
+        max-width: 350px;
+        font-weight: 400;
+        /* background-color: chocolate; */
+    }
+
+    .qtybtns {
+        width: fit-content;
+        position: absolute;
+        left: 13px;
+    }
+
+    .removebtncontainer {
+        width: fit-content;
+    }
+    .food-image {
+        height: 75px;
+        width: 75px;
+        margin-right: 20px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+    .cart-list-flex {
+        display: block;
+        flex-wrap: wrap;
+        max-width: 900px;
+        align-items: center;
+        position: relative;
+        padding-bottom: 25px;
+    }
+    .cart-container {
+        font-family: 'Poppins', sans-serif;
+        max-width: 900px;
+        margin: auto;
+        background-color: rgb(39, 39, 56);
+        padding: 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .ticketpricetext{
+        font-size: 18px;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+}

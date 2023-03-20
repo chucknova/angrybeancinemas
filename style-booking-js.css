@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.modal-body,
+.modal-header {
+    background-color: black;
+}
+
+.btn-close {
+    background-color: white;
+}
+
+.movie-price {
+    border-radius: 2px;
+}
+
+.movie-prod-details {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.movie-prod-div-one {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.addcartbtn {
+    width: 350px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #3E45FF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.movie-prod-poster {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.movie-prod-poster-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+
+.movie-prod-div-one {
+    display: flex;
+    align-items: center;
+}
+
+.movie-prod-poster-imgg {
+    height: 270px;
+}
+
+.movie-prod-div-two{
+width: 510px;
+}
+
+.movie-prod-detailss {
+    text-align: left;
+}
+
+.movie-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #3E45FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    margin: auto;
+}
+
+.select-date-time-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.submit-comment-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.submit-btn {
+    width: 350px;
+    border-radius: 2px;
+}
+
+.select-date-two,
+.select-date-one {
+    padding-bottom: 30px;
+    align-items: baseline;
+}
+
+.selectdatebtn,
+.selecttimebtn {
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255);
+    color: rgb(32, 32, 32);
+}
+
+.select-date-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#bookingdisplay{
+    margin-top: 60px;
+}
+@media screen and (max-width: 500px) {
+    .movie-price {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        background-color: #3E45FF;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 230px;
+        margin: auto;
+    }
+
+    .movie-prod-div-one {
+        display: block;
+        text-align: center;
+        align-items: center;
+        width: fit-content;
+        padding-left: 20px;
+    }
+
+    .select-date-header {
+        font-family: 'Anton', sans-serif;
+        font-size: 23px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
